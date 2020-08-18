@@ -1,4 +1,4 @@
-export const callLogin = async (email, password) => {
+export const callLogin = async (email: string, password: string) => {
   if (email === "admin@test.com" && password === "123345") {
     return { accessToken: "nBL7pL0OAKuiHWmnXAS6LtPI9ufgRTj4QRfZCQnXrFoUAqWrTI5DN7ciilGd2fCB" }
   }
